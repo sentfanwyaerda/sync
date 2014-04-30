@@ -1,7 +1,7 @@
 sync
 ====
 
-A simple intelligent synchonization script to keep webmirrors synchronized, written in PHP. By initiation (through a cronjob e.g.) the local ``sync.php`` connects to the remote ``sync.php``, authenticates, lists all available files, compares list against changes and pushes/pulls the newer documents.
+A simple intelligent synchonization script to keep webmirrors synchronized, written in PHP. By initiation (through a cronjob e.g.) the local ``sync.php`` connects to the remote ``sync.php``, authenticates, lists all available files, compares list against changes and pushes/pulls the newer files.
 
 ###Futures functionality:###
 - optional hooking GIT into the synchonisation process
